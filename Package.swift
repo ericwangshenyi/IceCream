@@ -13,6 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
+	    name: "Realm",
             url: "https://github.com/realm/realm-cocoa", 
             .upToNextMajor(from: "10.7.0")
         )
